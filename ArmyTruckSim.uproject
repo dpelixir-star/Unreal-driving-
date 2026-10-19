@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "Simulation",
+	"Description": "5 ton 6x6 army truck driving simulator: procedurally generated 5 km x 5 km hilly world with a hairpin mountain pass, curves, signalised junctions and AI traffic.",
+	"Modules": [
+		{
+			"Name": "ArmyTruckSim",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		}
+	]
+}
